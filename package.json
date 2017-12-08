@@ -1,0 +1,17 @@
+{
+  "name": "node-reptile",
+  "version": "1.0.0",
+  "description": "node js 爬虫 爬取https://laravel-china.org/topics 首页",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "meiyun",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2"
+  }
+}
